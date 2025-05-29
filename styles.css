@@ -1,15 +1,23 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f7f7f7;
-  color: #333;
+header .logo a {
+  background-image: url("images/2E-logo.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-right: px;
+  background-size: 100px;
+  top: ;
 }
 
+
 header {
-  background: #000;
-  color: #f7931e;
+  background: #ffffff;
+  color: #c96b00;
   padding: 1rem;
   text-align: center;
+  
 }
 
 nav ul {
@@ -20,23 +28,61 @@ nav ul {
   margin-top: 10px;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #858585;
+  color: white;
+}
+
+
+
 nav ul li {
   margin: 0 15px;
 }
 
 nav ul li a {
-  color: #fff;
+  color: #9c5300;
   text-decoration: none;
 }
 
-section {
+.hero{
+  background-image: url(images/landing\ page.jpg);
+}
+
+.hero{
+  
+  width: px;
+  height: px;
+}
+
+.container{
+  display: flex;
+  padding: 25px;
+  
+  background: ;
+  margin-left: px;
+  max-width: px;
+  border-radius: px;
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
+  gap: 10px; /* space between groups */
+}
+
+.group{
+  background: ;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+/*section  {
   padding: 2rem;
   background: #fff;
   margin: 1rem auto;
   max-width: 1000px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+} */
 
 .project {
   margin-bottom: 1rem;
