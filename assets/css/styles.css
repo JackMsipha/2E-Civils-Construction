@@ -15,7 +15,7 @@ header .logo a {
 header {
   background: #a8a8a8;
   color: #c96b00;
-  padding: 1rem;
+  /* padding: 1rem; */
   text-align: center;
   
 }
@@ -61,11 +61,10 @@ nav ul li a {
   display: flex;
   padding: 25px;
   background: ;
-  margin-left: px;
-  max-width: px;
-  border-radius: px;
+  margin-left: 0 !important;
+  max-width: 100%;
   /*box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
-  gap: 200px; /* space between groups */
+  gap: 100px; /* space between groups */
 }
 
 .group{
@@ -112,16 +111,13 @@ nav ul li a {
 
 .associates-container{
   display: flex;
-  padding: px;
   text-align: center;
   background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
   max-width: 100%;
-  border-radius: 10px;
   height: 100px;
-  /*box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
-  gap: ; /* space between groups */
+}
+.associates-container img{
+  height: 50%;
 }
 
 .associates img{
@@ -141,5 +137,65 @@ footer {
   text-align: center;
   padding: 1rem;
   background: #333;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/hero_image_3.jpg");
+height: 70%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.hero-text h1{
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-text p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-text button{
+  background-color: #c1651a;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c1651a;
   color: white;
 }
